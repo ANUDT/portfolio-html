@@ -15,7 +15,7 @@ function Header() {
           <div className="h-section about">
             <h1 className="logo-text">MyPortfolio</h1>
             <p>
-            MY PORTFOLIO SHOWCASES THE PROJECTS AND ACHIEVEMENTS OF A DEDICATED WEB DEVELOPER AND DESIGNER
+            TEXT
             </p>
            
             <div className="socials">

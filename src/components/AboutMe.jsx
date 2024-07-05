@@ -7,22 +7,29 @@ function AboutMe() {
       <nav>
         <ul>
           <li>
-            <a href="/">About me </a>
+            <a href="/">ABOUT ME </a>
           </li>
           <li>
-            <a href="/project">Project </a>
+            <a href="/project">PROJECTS </a>
           </li>
           <li>
-            <a href="/">TEXT </a>
+            <a href="/">SKILLS </a>
+          </li>
+          <li>
+            <a href="/">EXPERIENCE </a>
+          </li>
+          <li>
+            <a href="/">EDUCATION </a>
           </li>
         </ul>
       </nav>
-          <h1>AboutMe</h1>
+      <span></span>
+          <h1>ANU</h1>
           <div className="avatar container">
           <img src={avatar} className="avatar"/>
           </div>
  
-      <p>text</p>
+      <p>DT</p>
     </header>
   );
 }

@@ -1,5 +1,5 @@
 import "../footer.css";
-import footText1 from "../../image/Designer.jpeg"
+import footText1 from "../../image/hacking.jpeg"
 import footText2 from "../../image/Designer.jpeg"
 import footText3 from "../../image/Designer.jpeg"
 
@@ -12,11 +12,11 @@ function Footer() {
         <div className="footer-section about">
           <h1 className="logo-text">MyPortfolio</h1>
           <p>
-            MyPortfolio showcases the projects and achievements of a dedicated web developer and designer.
+          MY PORTFOLIO SHOWCASES THE PROJECTS AND ACHIEVEMENTS OF A DEDICATED WEB DEVELOPER AND DESIGNER
           </p>
           <div className="contact">
-            <span><i className="fas fa-phone"></i> &nbsp;00000</span>
-            <span><i className="fas fa-envelope"></i> &nbsp; info@myportfolio.com</span>
+            <span><i className="fas fa-phone"></i> &nbsp;<span></span>00000</span>
+            <span><i className="fas fa-envelope"></i> &nbsp;<span></span> info@myportfolio.com</span>
           </div>
           <div className="socials">
             <a href="#"><i className="fab GITHUB"></i></a>
