@@ -60,8 +60,8 @@ function Header() {
             <li><a href="#contact">Contact</a></li>
             </ul>
       </div>
-    </header>
-  )
-};
+      <header>
+  {/* Your header content */}
+</header>
 
 export default Footer;
