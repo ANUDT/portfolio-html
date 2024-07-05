@@ -1,6 +1,6 @@
 .header {
     background: #e5e5ec;
-    color: #d3d3d3;
+    color: #e6a2a2;
     text-size-adjust: bold ;
     padding-top: 40px;
     width: 100%;
@@ -8,7 +8,7 @@
   
   .styles {
     background: #6262e7;
-    color: #d3d3d3;
+    color: #a9ec5b;
     text-size-adjust: bold ;
     padding-top: 40px;
     width: 100%;
@@ -31,7 +31,7 @@
   }
   
   .header .header-section p, .header .header-section span {
-    color: #4ff15d;
+    color: #5bf568;
   }
   
   .header .header-section .contact span {

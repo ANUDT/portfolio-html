@@ -1,7 +1,7 @@
 import "../App.css";
 import project1 from "../../image/adt.jpeg"
-import project2 from "../../image/adt.jpeg"
-import project3 from "../../image/adt.jpeg"
+import project2 from "../../image/modern computer.jpeg"
+import project3 from "../../image/hacking.jpeg"
 
 function Project() {
   return (

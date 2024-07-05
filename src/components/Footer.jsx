@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer-section about">
           <h1 className="logo-text">MyPortfolio</h1>
           <p>
-          MY PORTFOLIO SHOWCASES THE PROJECTS AND ACHIEVEMENTS OF A DEDICATED WEB DEVELOPER AND DESIGNER
+            MyPortfolio showcases the projects and achievements of a dedicated web developer and designer.
           </p>
           <div className="contact">
             <span><i className="fas fa-phone"></i> &nbsp;<span></span>00000</span>

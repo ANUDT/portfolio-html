@@ -1,6 +1,6 @@
 import Navigation from './Navigation';
 import styles from '../header.css';
-import headText1 from '../../image/Designer.jpeg';
+import headText1 from '../../image/adt.jpeg';
 import headText2 from '../../image/Designer.jpeg';
 import headText3 from '../../image/Designer.jpeg';
 
