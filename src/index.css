@@ -4,3 +4,14 @@ margin: 4;
 padding-left: 2;
 font-family: Inter, Helvetica, Arial, sans-serif;
 }
+
+  
+footer {
+    background: #360505;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
