@@ -1,4 +1,4 @@
-import "../App.css";
+import "../footer.css";
 import footText1 from "../../image/Designer.jpeg"
 import footText2 from "../../image/Designer.jpeg"
 import footText3 from "../../image/Designer.jpeg"
@@ -22,18 +22,10 @@ function Footer() {
             <a href="#"><i className="fab GITHUB"></i></a>
             <a href="#"><i className="fab LINKED-IN"></i></a>
             <a href="#"><i className="EMAIL"></i></a>
-                </div>
+          </div>
         </div>
 
-        <div className="footer-section links">
-          <h2>Quick Links</h2>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
+
 
         <div className="footer-section contact-form">
           <h2>Contact Me</h2>
@@ -48,15 +40,24 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom"></div>
-        &copy; myportfolio.com | Designed by Me
+      &copy; adt.com | Designed by Me
       <div className="footText container">
-         <img src={footText1} className="footText 1"/>
-         <a href= "Github.com">footText 1</a>
-          <img src={footText2} className="footText 2"/>
-          <a href= "Github.com">FootText 2</a>
-          <img src={footText3} className="footText 3"/>
-          <a href= "Github.com">FootText 3</a>
-          </div>
+        <img src={footText1} className="footText 1" />
+        <a href="Github.com">footText 1</a>
+        <img src={footText2} className="footText 2" />
+        <a href="Github.com">FootText 2</a>
+        <img src={footText3} className="footText 3" />
+        <a href="Github.com">FootText 3</a>
+      </div>
+      <div className="footer-section links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </header>
   );
 }
