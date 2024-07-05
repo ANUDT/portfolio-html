@@ -5,7 +5,7 @@ import footText3 from "../../image/Designer.jpeg"
 
 function Footer() {
   return (
-    <header>
+    <footer>
       <h1>Footer</h1>
       <footer className="footer"></footer>
       <div className="footer-content">
@@ -58,7 +58,7 @@ function Footer() {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </header>
+    </footer>
   );
 }
 
