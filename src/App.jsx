@@ -10,7 +10,7 @@ import './App.css';
 import styled, { ThemeProvider } from 'styled-components';
 import { darkTheme } from './utils/Themes.jsx';
 
-import styled from 'styled-components';
+
 const Body = styled.div`
   background-color: ${props => props.theme.background};
   overflow-x: hidden;
@@ -43,7 +43,6 @@ function App() {
       <div/>;
       <Footer />
     </Router>
-  );
 }
 
 export default App;
