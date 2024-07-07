@@ -7,12 +7,22 @@ import Contact from './components/Contact';
 import Project from './components/Project';
 import Resume from './components/Resume';
 import './App.css';
+import styles from 'styles-components';
+import { darkTheme } from './utils/Contents';
+
+const Body =styles.div
+background-color: $ {({theme }) => theme.background}
+width: 100%;
+overflow-x; hidden;
+;
 
 
 //displaying app with the elements header, footer, about me, contact, navigation, portfolio, project and resume
 // it will render following the path given
 function App() {
   return (
+    <ThemeProvider theme=(darkTheme)>
+    
     <Router>
       <Header />
       <main>
