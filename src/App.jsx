@@ -7,7 +7,7 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Project from './components/Project';
 import Resume from './components/Resume';
-import { darkTheme } from './utils/Themes.jsx';
+import { lightTheme } from './utils/Themes.jsx';
 import './App.css';
 
 const Body = styled.div`
@@ -22,26 +22,23 @@ const Body = styled.div`
 // it will render following the path given
 function App() {
   return (
-    <ThemeProvider theme={darkTheme}>
-      <Body>Portfolio ADT</Body>
-    </ThemeProvider>
+    <ThemeProvider theme={lightTheme}>
+      <Body>
+        <Router>
+          <Header />
+          <main>
+            <Routes>
+              <Route path="/" element={<AboutMe />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/project" element={<Project />} />
+              <Route path="/resume" element={<Resume />} />
+            </Routes>
+          </main>
+          <Footer />
+        </Router>
+      </Body>
+    </ThemeProvider>  
   );
-}
-
-{
-    <Router>
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
-      </main>
-      <div/>;
-      <Footer />
-    </Router>
 }
 
 export default App;

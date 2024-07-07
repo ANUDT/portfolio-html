@@ -227,8 +227,6 @@ export const project = [
     }
 ]
   
-  
-  
 export const TimeLineData = [
     { year: 2022, text: "TEXT" },
     { year: 2022, text: "TEXT" },
