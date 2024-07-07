@@ -1,5 +1,32 @@
 @import "./vars.css";
 
+.App {
+  text-align: center;
+    background-color: var(rgb(240, 204, 157));
+    width: 100%;
+    height: 100%;
+}
+
+  /* Header styles */
+  .App.header {
+    background-color: #8b9196;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    color: #abf18a;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .App-logo{
+    text-align: center;
+  }
+
+  .App.link{
+    color: #e97777;
+  }
+
 .avatar{
   width: 100%;
   margin: 0 auto;
@@ -17,11 +44,7 @@
   display; flex:auto
 }
 
-.App {
-    background-color: var(beige);
-    width: 100%;
-    height: 100%;
-}
+
     
 /* Reset default margin and padding */
 * {
@@ -32,6 +55,7 @@
   
   /* Global styles */
   body {
+  align-self: center;
     font-family: 'Roboto', sans-serif;
     background-color: #87a3be;
     color: #333;
@@ -44,13 +68,7 @@
     padding: 0 20px;
   }
   
-  /* Header styles */
-  .header {
-    background-color: #343a40;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
+
   
   .header h1 {
     font-size: 2.5rem;
@@ -195,6 +213,12 @@
   @media (max-width: 480px) {
     nav ul {
       flex-direction: column;
+    }
+
+    @media (max-width: 480px) {
+     .App-logo {
+        animation: App-logo-spin infinite 30s linear;
+      }
     }
   
     .card {
