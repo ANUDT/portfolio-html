@@ -10,7 +10,7 @@ function Footer() {
       <footer className="footer"></footer>
       <div className="footer-content">
         <div className="footer-section about">
-          <h1 className="logo-text">MyPortfolio</h1>
+          <h1 className="logo-text">MyPortfolio (footer)</h1>
           <p>
             MyPortfolio showcases the projects and achievements of a dedicated web developer and designer.
           </p>
