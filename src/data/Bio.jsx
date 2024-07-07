@@ -5,7 +5,7 @@ export const Bio = {
         "CRM CPQ System Support",
     ],
     description:
-        "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+        "Working on important projects, Helping a company outdo its targets, Learning new things, Collaborating with others in a team environment, Solving challenging problems . With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/ANUDT",
     resume:
         "https://drive.google.com// link to share",
@@ -13,7 +13,7 @@ export const Bio = {
     twitter: "https://github.com/ANUDT/week-20-portfolio-ADT",
 };
 
-export const skills = [
+export const skills =[
     {
         title: "Frontend",
         skills: [
