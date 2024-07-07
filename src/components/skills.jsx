@@ -10,10 +10,17 @@ function Skills() {
       <div>
             <h1>Skills</h1>
             <div className="skills-container">
-                {expertise.map(expertise => (
-                    <div key={expertise.skills.name} className="skills-card">
-                        <p><strong>name:</strong> {expertise.skills.name}</p>
-                        <p><strong>image:</strong> {expertise.skills.image}</p>
+                {expertise.map(item => (
+                    <div key={item.skills.name}>
+                        <h2>{item.title}</h2>
+                        <div>
+                        {item.skills.map((skill, idx) => (
+                            <div key={idx} style={{ display: 'flex', alignItems: 'center' }}>
+                                <img src={skill.image} alt={skill.name} style={{ width: '50px', height: '50px', marginRight: '10px' }} />
+                                <span>{skill.name}</span>
+                            </div>
+                        ))}
+                    </div>
                     </div>
                 ))}
             </div>
