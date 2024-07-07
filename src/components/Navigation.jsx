@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import "../App.css";
 
-function Navigation() {
+const Navigation = () => {
   return (
     <nav>
       <ul>

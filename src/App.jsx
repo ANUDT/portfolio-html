@@ -7,22 +7,29 @@ import Contact from './components/Contact';
 import Project from './components/Project';
 import Resume from './components/Resume';
 import './App.css';
-import styles from 'styles-components';
-import { darkTheme } from './utils/Contents';
+import styled, { ThemeProvider } from 'styled-components';
+import { darkTheme } from './utils/Themes.jsx';
 
-const Body =styles.div
-background-color: $ {({theme }) => theme.background}
-width: 100%;
-overflow-x; hidden;
-;
+import styled from 'styled-components';
+const Body = styled.div`
+  background-color: ${props => props.theme.background};
+  overflow-x: hidden;
+  height: 100%
+  width: 100%
+`;
 
 
 //displaying app with the elements header, footer, about me, contact, navigation, portfolio, project and resume
 // it will render following the path given
 function App() {
   return (
-    <ThemeProvider theme=(darkTheme)>
-    
+    <ThemeProvider theme={darkTheme}>
+      <Body>Portfolio ADT</Body>
+    </ThemeProvider>
+  );
+}
+
+{
     <Router>
       <Header />
       <main>
