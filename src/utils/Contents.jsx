@@ -11,7 +11,20 @@ export const darkTheme = {
       button: "#854CEF",
       black: "000000",      
       footerBackground: "#00012B"
-    },
+    };
+
+    export const darkTheme = {
+        background: "#FFFFFF",
+        backgroundLight: "f0f0f0",
+        Primary: "#bela01",
+        text1: "#1111111",
+        text2: "#555555",
+        text3: "#222222",
+        text4: "#777777",
+        card:"#FFFFF",
+        card_Light:"#161616",
+        button: "#854CEF",
+      }; 
    
-    },
+  
   
