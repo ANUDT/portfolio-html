@@ -13,7 +13,7 @@ export const Bio = {
     twitter: "https://github.com/ANUDT/week-20-portfolio-ADT",
 };
 
-export const skills =[
+export const skills = [
     {
         title: "Frontend",
         skills: [
@@ -57,7 +57,7 @@ export const skills =[
                     "data:image/png;base64,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",
             },
         ]
-        
+    },
     {
         title: "Backend",
         skills: [
@@ -90,157 +90,148 @@ export const skills =[
                 name: "XML",
                 image:
                     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-            },
-
-            {
-                title: "Others",
-                skills: [
-                    {
-                        name: "GIT",
-                        image:
-                            "https://github.com/ANUDT/week-20-portfolio-ADT",
-                    },
-                    {
-                        name: "GITHUB",
-                        image:
-                            "https://https://github.com/ANUDT/week-20-portfolio-ADT",
-                    },
-                    {
-                        name: "DOCKER",
-                        image:
-                            "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-                    },
-                    {
-                        name: "NETLIFY",
-                        image:
-                            "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-                    },
-                    {
-                        name: "VS CODE",
-                        image:
-                            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-                    },
-                    {
-                        name: "POSTMAN",
-                        image:
-                            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-                    },
-
-                    {
-                        name: "FIGMA",
-                        image:
-                            "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-                    },
-                ],
-            },
+            }
         ]
-  
-  export const experience = [
-            {
-                id: 0,
-                img: "https://www.google.com/search?q=modelez+europe+logo&newwindow=1&sca_esv=1dd9a7ac9bc4d9ec&sxsrf=ADLYWII7l9nIo-4Z58PAvJLqnozmRjJfsg%3A1720361129350&ei=qaCKZviCFbS5hbIP2_69uAw&ved=0ahUKEwi4-__PjJWHAxW0XEEAHVt_D8cQ4dUDCA8&uact=5&oq=modelez+europe+logo&gs_lp=Egxnd3Mtd2l6LXNlcnAiE21vZGVsZXogZXVyb3BlIGxvZ28yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTIIEAAYgAQYogQyCBAAGIAEGKIESIxXULkIWK1TcAR4AZABApgBd6AB_BOqAQQyOC4zuAEDyAEA-AEBmAIYoAL8DqgCFMICChAAGLADGNYEGEfCAgUQIRigAcICBRAhGJ8FwgIUEAAYgAQYkQIYtAIYigUY6gLYAQHCAhQQABiABBjjBBi0AhjpBBjqAtgBAcICGhAuGIAEGNEDGOMEGLQCGMcBGOkEGOoC2AEBwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBAsICFhAuGAMYtAIY5QIY6gIYjAMYjwHYAQLCAgsQABiABBiRAhiKBcICDRAAGIAEGLEDGEMYigXCAhEQLhiABBixAxjRAxiDARjHAcICCxAAGIAEGLEDGIMBwgIOEAAYgAQYsQMYgwEYigXCAggQLhiABBixA8ICCBAAGIAEGLEDwgIKEC4YgAQYQxiKBcICChAAGIAEGEMYigXCAg4QLhiABBixAxjRAxjHAcICDhAuGIAEGLEDGIMBGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICERAuGIAEGLEDGMcBGJgFGK8BwgIFEAAYgATCAhEQABiABBiRAhixAxiDARiKBcICDRAuGIAEGEMY1AIYigXCAg4QABiABBiRAhixAxiKBcICEBAuGIAEGLEDGNEDGMcBGArCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIfEC4YgAQYsQMY0QMYxwEYChiXBRjcBBjeBBjgBNgBA8ICFBAuGIAEGJECGLEDGNEDGMcBGIoFwgIQEC4YgAQYxwEYChiOBRivAcICBxAAGIAEGArCAg0QLhiABBjHARgKGK8BwgINEAAYgAQYsQMYgwEYCsICIxAuGIAEGJECGLEDGNEDGMcBGIoFGJcFGNwEGN4EGOAE2AEDwgIUEC4YgAQYkQIYxwEYigUYjgUYrwHCAg0QLhiABBjRAxjHARgKwgINEC4YgAQY0QMYxwEYDcICBxAAGIAEGA3CAg0QLhiABBjHARgNGK8BwgIGEAAYDRgemAMIiAYBkAYIugYECAEYB7oGBggCEAEYCroGBggDEAEYFJIHBDE3LjegB5y4Ag&sclient=gws-wiz-serp#vhid=-MUjvwDzIzb5vM&vssid=l",
-                role: "TEXT",
-                company: "Mondelez",
-                date: "Jan 2024",
-                desc: "Working on examples.",
-                skills: [
-                    "POWER BI",
-                    "DATA ANALYSES",
+    },
 
-                ],
-                doc: "https://media.",
+    {
+        title: "Others",
+        skills: [
+            {
+                name: "GIT",
+                image:
+                    "https://github.com/ANUDT/week-20-portfolio-ADT",
+            },
+            {
+                name: "GITHUB",
+                image:
+                    "https://https://github.com/ANUDT/week-20-portfolio-ADT",
+            },
+            {
+                name: "DOCKER",
+                image:
+                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+            },
+            {
+                name: "NETLIFY",
+                image:
+                    "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+            },
+            {
+                name: "VS CODE",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+            },
+            {
+                name: "POSTMAN",
+                image:
+                    "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
             },
 
-
             {
-                id: 2,
-                img: "https://www.google.com/imgres?q=ccep%20logo%20new&imgurl=https%3A%2F%2Fcdn.cookielaw.org%2Flogos%2F3f3bd182-6198-4d2b-9408-2fd18c944e35%2F169a4500-dbbf-483e-ad4f-72144bae17db%2F9057caf3-ec10-4acc-91db-9f32fbb4bdb0%2FCCEP_Horizontal_Logo_RGB_Red.png&imgrefurl=https%3A%2F%2Fwww.cocacolaep.com%2F&docid=SlYa33Gs18H35M&tbnid=4m21iYbjGFXIUM&vet=12ahUKEwisipLHjZWHAxVzQEEAHbTMACIQM3oECGMQAA..i&w=3884&h=1176&hcb=2&ved=2ahUKEwisipLHjZWHAxVzQEEAHbTMACIQM3oECGMQAA",
-                role: "TEXT",
-                company: "Coca Cola European Partners",
-                date: "Feb 2024",
-                desc: "Working on examples.",
-                skills: [
-                    "POWER BI",
-                    "DATA ANALYSES",
-
-                ],
-                doc: "https://media.",
+                name: "FIGMA",
+                image:
+                    "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
             },
+        ],
+    },
+]
 
-            {
-                id: 2,
-                img: "https://media.licdn.com/dms/image/C4E0BAQGKPB3UKrbI0g/company-logo_200_200/0/1631364497962/ishida_europe_ltd_logo?e=2147483647&v=beta&t=FvhNOLDGwzlXlpA_-TvkUc2ZzIOS4wGwlfhxgtnk1wg",
-                role: "TEXT",
-                company: "Ishida Europe",
-                date: "Feb 2024",
-                desc: "Working on examples.",
-                skills: [
-                    "POWER BI",
-                    "DATA ANALYSES",
+export const experience = [
+    {
+        id: 0,
+        img: "https://www.google.com/search?q=modelez+europe+logo&newwindow=1&sca_esv=1dd9a7ac9bc4d9ec&sxsrf=ADLYWII7l9nIo-4Z58PAvJLqnozmRjJfsg%3A1720361129350&ei=qaCKZviCFbS5hbIP2_69uAw&ved=0ahUKEwi4-__PjJWHAxW0XEEAHVt_D8cQ4dUDCA8&uact=5&oq=modelez+europe+logo&gs_lp=Egxnd3Mtd2l6LXNlcnAiE21vZGVsZXogZXVyb3BlIGxvZ28yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTIIEAAYgAQYogQyCBAAGIAEGKIESIxXULkIWK1TcAR4AZABApgBd6AB_BOqAQQyOC4zuAEDyAEA-AEBmAIYoAL8DqgCFMICChAAGLADGNYEGEfCAgUQIRigAcICBRAhGJ8FwgIUEAAYgAQYkQIYtAIYigUY6gLYAQHCAhQQABiABBjjBBi0AhjpBBjqAtgBAcICGhAuGIAEGNEDGOMEGLQCGMcBGOkEGOoC2AEBwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBAsICFhAuGAMYtAIY5QIY6gIYjAMYjwHYAQLCAgsQABiABBiRAhiKBcICDRAAGIAEGLEDGEMYigXCAhEQLhiABBixAxjRAxiDARjHAcICCxAAGIAEGLEDGIMBwgIOEAAYgAQYsQMYgwEYigXCAggQLhiABBixA8ICCBAAGIAEGLEDwgIKEC4YgAQYQxiKBcICChAAGIAEGEMYigXCAg4QLhiABBixAxjRAxjHAcICDhAuGIAEGLEDGIMBGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICERAuGIAEGLEDGMcBGJgFGK8BwgIFEAAYgATCAhEQABiABBiRAhixAxiDARiKBcICDRAuGIAEGEMY1AIYigXCAg4QABiABBiRAhixAxiKBcICEBAuGIAEGLEDGNEDGMcBGArCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIfEC4YgAQYsQMY0QMYxwEYChiXBRjcBBjeBBjgBNgBA8ICFBAuGIAEGJECGLEDGNEDGMcBGIoFwgIQEC4YgAQYxwEYChiOBRivAcICBxAAGIAEGArCAg0QLhiABBjHARgKGK8BwgINEAAYgAQYsQMYgwEYCsICIxAuGIAEGJECGLEDGNEDGMcBGIoFGJcFGNwEGN4EGOAE2AEDwgIUEC4YgAQYkQIYxwEYigUYjgUYrwHCAg0QLhiABBjRAxjHARgKwgINEC4YgAQY0QMYxwEYDcICBxAAGIAEGA3CAg0QLhiABBjHARgNGK8BwgIGEAAYDRgemAMIiAYBkAYIugYECAEYB7oGBggCEAEYCroGBggDEAEYFJIHBDE3LjegB5y4Ag&sclient=gws-wiz-serp#vhid=-MUjvwDzIzb5vM&vssid=l",
+        role: "TEXT",
+        company: "Mondelez",
+        date: "Jan 2024",
+        desc: "Working on examples.",
+        skills: [
+            "POWER BI",
+            "DATA ANALYSES",
 
-                ],
-                doc: "https://media.",
-            },
+        ],
+        doc: "https://media.",
+    },
+    {
+        id: 2,
+        img: "https://www.google.com/imgres?q=ccep%20logo%20new&imgurl=https%3A%2F%2Fcdn.cookielaw.org%2Flogos%2F3f3bd182-6198-4d2b-9408-2fd18c944e35%2F169a4500-dbbf-483e-ad4f-72144bae17db%2F9057caf3-ec10-4acc-91db-9f32fbb4bdb0%2FCCEP_Horizontal_Logo_RGB_Red.png&imgrefurl=https%3A%2F%2Fwww.cocacolaep.com%2F&docid=SlYa33Gs18H35M&tbnid=4m21iYbjGFXIUM&vet=12ahUKEwisipLHjZWHAxVzQEEAHbTMACIQM3oECGMQAA..i&w=3884&h=1176&hcb=2&ved=2ahUKEwisipLHjZWHAxVzQEEAHbTMACIQM3oECGMQAA",
+        role: "TEXT",
+        company: "Coca Cola European Partners",
+        date: "Feb 2024",
+        desc: "Working on examples.",
+        skills: [
+            "POWER BI",
+            "DATA ANALYSES",
+
+        ],
+        doc: "https://media.",
+    },
+    {
+        id: 2,
+        img: "https://media.licdn.com/dms/image/C4E0BAQGKPB3UKrbI0g/company-logo_200_200/0/1631364497962/ishida_europe_ltd_logo?e=2147483647&v=beta&t=FvhNOLDGwzlXlpA_-TvkUc2ZzIOS4wGwlfhxgtnk1wg",
+        role: "TEXT",
+        company: "Ishida Europe",
+        date: "Feb 2024",
+        desc: "Working on examples.",
+        skills: [
+            "POWER BI",
+            "DATA ANALYSES",
+        ],
+        doc: "https://media.",
+    }
+]
   
       
-  export const project = [
-            {
-                id: 1,
-                title: "Project 1 FOODIE",
-                date: "9th September",
-                description: "This is a webpage that allows users to generate a list of recipes based on their choice of meal, cuisine and entered key words. The site specialises in quick and easy to make recipes that families can enjoy making together, and even kids can make on their own. This is because each recipe takes up to only 45 minutes and has a maximum of 10 ingredients.",
-                github: "https://github.com/Shukrim433/Foodie.git",
-                presentation: "https://1drv.ms/p/c/fa46553fefa8bdf5/EcL3fQ_pzhROkly9J2FMN2gBowU5koMg2Woqgbut-oIvbg?e=NNid7b",
-                tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-                skills: [
-                    "POWER BI",
-                    "DATA ANALYSES",
-
-                ],
-                doc: "https://media.",
-            },
-
-            {
-                id: 2,
-                title: "Project 2 TECHHIVE",
-                date: "10th September",
-                description: "This is a webpage that allows users to generate a list of recipes based on their choice of meal, cuisine and entered key words. The site specialises in quick and easy to make recipes that families can enjoy making together, and even kids can make on their own. This is because each recipe takes up to only 45 minutes and has a maximum of 10 ingredients.",
-                github: "https://github.com/Shukrim433/Foodie.git",
-                presentation: "https://1drv.ms/p/c/fa46553fefa8bdf5/EcL3fQ_pzhROkly9J2FMN2gBowU5koMg2Woqgbut-oIvbg?e=NNid7b",
-                tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-                skills: [
-                    "POWER BI",
-                    "DATA ANALYSES",
-
-                ],
-                doc: "https://media.",
-            },
-
-
-            {
-                id: 3,
-                title: "Project 3 NANNYSTORK",
-                date: "9th September",
-                description: "This is a webpage that allows users to generate a list of recipes based on their choice of meal, cuisine and entered key words. The site specialises in quick and easy to make recipes that families can enjoy making together, and even kids can make on their own. This is because each recipe takes up to only 45 minutes and has a maximum of 10 ingredients.",
-                github: "https://github.com/Shukrim433/Foodie.git",
-                presentation: "https://1drv.ms/p/c/fa46553fefa8bdf5/EcL3fQ_pzhROkly9J2FMN2gBowU5koMg2Woqgbut-oIvbg?e=NNid7b",
-                tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-                skills: [
-                    "POWER BI",
-                    "DATA ANALYSES",
-
-                ],
-                doc: "https://media.",
-            },
-  
-  
-  
-  export const TimeLineData = [
-            { year: 2022, text: "TEXT" },
-            { year: 2022, text: "TEXT" },
-            { year: 2022, text: "TEXT" },
-            { year: 2022, text: "TEXT" },
-
-
-        ];
+export const project = [
+    {
+        id: 1,
+        title: "Project 1 FOODIE",
+        date: "9th September",
+        description: "This is a webpage that allows users to generate a list of recipes based on their choice of meal, cuisine and entered key words. The site specialises in quick and easy to make recipes that families can enjoy making together, and even kids can make on their own. This is because each recipe takes up to only 45 minutes and has a maximum of 10 ingredients.",
+        github: "https://github.com/Shukrim433/Foodie.git",
+        presentation: "https://1drv.ms/p/c/fa46553fefa8bdf5/EcL3fQ_pzhROkly9J2FMN2gBowU5koMg2Woqgbut-oIvbg?e=NNid7b",
+        tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+        skills: [
+            "POWER BI",
+            "DATA ANALYSES",
+        ],
+        doc: "https://media.",
+    },
+    {
+        id: 2,
+        title: "Project 2 TECHHIVE",
+        date: "10th September",
+        description: "This is a webpage that allows users to generate a list of recipes based on their choice of meal, cuisine and entered key words. The site specialises in quick and easy to make recipes that families can enjoy making together, and even kids can make on their own. This is because each recipe takes up to only 45 minutes and has a maximum of 10 ingredients.",
+        github: "https://github.com/Shukrim433/Foodie.git",
+        presentation: "https://1drv.ms/p/c/fa46553fefa8bdf5/EcL3fQ_pzhROkly9J2FMN2gBowU5koMg2Woqgbut-oIvbg?e=NNid7b",
+        tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+        skills: [
+            "POWER BI",
+            "DATA ANALYSES",
+        ],
+        doc: "https://media.",
+    },
+    {
+        id: 3,
+        title: "Project 3 NANNYSTORK",
+        date: "9th September",
+        description: "This is a webpage that allows users to generate a list of recipes based on their choice of meal, cuisine and entered key words. The site specialises in quick and easy to make recipes that families can enjoy making together, and even kids can make on their own. This is because each recipe takes up to only 45 minutes and has a maximum of 10 ingredients.",
+        github: "https://github.com/Shukrim433/Foodie.git",
+        presentation: "https://1drv.ms/p/c/fa46553fefa8bdf5/EcL3fQ_pzhROkly9J2FMN2gBowU5koMg2Woqgbut-oIvbg?e=NNid7b",
+        tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+        skills: [
+            "POWER BI",
+            "DATA ANALYSES",
+        ],
+        doc: "https://media.",
     }
+]
+  
+  
+  
+export const TimeLineData = [
+    { year: 2022, text: "TEXT" },
+    { year: 2022, text: "TEXT" },
+    { year: 2022, text: "TEXT" },
+    { year: 2022, text: "TEXT" },
+]
