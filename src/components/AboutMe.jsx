@@ -3,9 +3,11 @@ import avatar from "../../image/adt.jpeg"
 
 function AboutMe() {
   return (
-    <header>
-      
-    </header>
+    <main>
+      <h1>Hi Do doo </h1>
+      <p>This is my portfolio, yadi yadi ya...</p>
+      <img src={avatar}></img>
+    </main>
   );
 }
 

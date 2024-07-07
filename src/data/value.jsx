@@ -13,7 +13,7 @@ export const Bio = {
     twitter: "https://github.com/ANUDT/week-20-portfolio-ADT",
 };
 
-export const skills = [
+export const expertise = [
     {
         title: "Frontend",
         skills: [
@@ -28,7 +28,7 @@ export const skills = [
                     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
             },
             {
-                name: "Next Js",
+                name: "NextJS",
                 image:
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
             },
@@ -93,7 +93,6 @@ export const skills = [
             }
         ]
     },
-
     {
         title: "Others",
         skills: [
@@ -187,45 +186,37 @@ export const project = [
         id: 1,
         title: "Project 1 FOODIE",
         date: "9th September",
-        description: "This is a webpage that allows users to generate a list of recipes based on their choice of meal, cuisine and entered key words. The site specialises in quick and easy to make recipes that families can enjoy making together, and even kids can make on their own. This is because each recipe takes up to only 45 minutes and has a maximum of 10 ingredients.",
+        description: "This is a webpage that allows users to generate a list of recipes based on their choice of meal, cuisine, and entered keywords. The site specializes in quick and easy recipes that families can enjoy making together, and even kids can make on their own. Each recipe takes only up to 45 minutes and has a maximum of 10 ingredients.",
         github: "https://github.com/Shukrim433/Foodie.git",
-        presentation: "https://1drv.ms/p/c/fa46553fefa8bdf5/EcL3fQ_pzhROkly9J2FMN2gBowU5koMg2Woqgbut-oIvbg?e=NNid7b",
+        presentation: "",
         tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-        skills: [
-            "POWER BI",
-            "DATA ANALYSES",
-        ],
+        skills: ["POWER BI", "DATA ANALYSES"],
         doc: "https://media.",
     },
     {
         id: 2,
         title: "Project 2 TECHHIVE",
         date: "10th September",
-        description: "This is a webpage that allows users to generate a list of recipes based on their choice of meal, cuisine and entered key words. The site specialises in quick and easy to make recipes that families can enjoy making together, and even kids can make on their own. This is because each recipe takes up to only 45 minutes and has a maximum of 10 ingredients.",
-        github: "https://github.com/Shukrim433/Foodie.git",
-        presentation: "https://1drv.ms/p/c/fa46553fefa8bdf5/EcL3fQ_pzhROkly9J2FMN2gBowU5koMg2Woqgbut-oIvbg?e=NNid7b",
-        tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-        skills: [
-            "POWER BI",
-            "DATA ANALYSES",
-        ],
+        description: "Tech Hive is a platform designed for discovering and applying to job roles in the tech industry across the globe. It offers seamless navigation, a diverse range of job opportunities, and valuable external resources. Users can create accounts, search for jobs, and save jobs to their profiles.",
+        github: "https://github.com/Shukrim433/TechHive.git",
+        presentation: "",
+        tags: ["Handlebars", "CSS", "Javascript", "PostgreSQL", "Node.js"],
+        skills: ["JOB SEARCH", "USER ACCOUNTS"],
         doc: "https://media.",
     },
     {
         id: 3,
         title: "Project 3 NANNYSTORK",
         date: "9th September",
-        description: "This is a webpage that allows users to generate a list of recipes based on their choice of meal, cuisine and entered key words. The site specialises in quick and easy to make recipes that families can enjoy making together, and even kids can make on their own. This is because each recipe takes up to only 45 minutes and has a maximum of 10 ingredients.",
-        github: "https://github.com/Shukrim433/Foodie.git",
-        presentation: "https://1drv.ms/p/c/fa46553fefa8bdf5/EcL3fQ_pzhROkly9J2FMN2gBowU5koMg2Woqgbut-oIvbg?e=NNid7b",
+        description: "NannyStork is a platform connecting parents with trusted babysitters and nannies. The site allows parents to search for childcare providers based on their specific needs, view profiles, and read reviews. The focus is on creating a safe and reliable service for both parents and caregivers.",
+        github: "https://github.com/Shukrim433/NannyStork.git",
+        presentation: "",
         tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-        skills: [
-            "POWER BI",
-            "DATA ANALYSES",
-        ],
+        skills: ["CHILDCARE SERVICES", "USER REVIEWS"],
         doc: "https://media.",
     }
-]
+];
+
   
 export const TimeLineData = [
     { year: 2022, text: "TEXT" },

@@ -7,7 +7,7 @@
   }
   
   .styles {
-    background: #6262e7;
+    background: #3e3edf;
     color: #a9ec5b;
     text-size-adjust: bold ;
     padding-top: 40px;
@@ -24,11 +24,7 @@
     flex: 1;
     padding: 20px;
   }
-  
-  .header .header-section h1, .header .header-section h2 {
-    color: #e97979;
-    margin-bottom: 20px;
-  }
+
   
   .header .header-section p, .header .header-section span {
     color: #5bf568;

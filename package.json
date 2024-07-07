@@ -26,6 +26,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.24.0",
+    "seeds": "^2.3.1",
     "styled-components": "^6.1.11"
   },
   "devDependencies": {

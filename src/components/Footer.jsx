@@ -5,12 +5,9 @@ import footText3 from "../../image/Designer.jpeg"
 
 function Footer() {
   return (
-    <footer>
-      <h1>Footer</h1>
-      <footer className="footer"></footer>
+      <footer className="footer">
       <div className="footer-content">
-        <div className="footer-section about">
-          <h1 className="logo-text">MyPortfolio (footer)</h1>
+        <div className="footer-section about"> 
           <p>
             MyPortfolio showcases the projects and achievements of a dedicated web developer and designer.
           </p>
@@ -24,9 +21,6 @@ function Footer() {
             <a href="#"><i className="EMAIL"></i></a>
           </div>
         </div>
-
-
-
         <div className="footer-section contact-form">
           <h2>Contact Me</h2>
           <form action="index.html" method="post">
@@ -41,14 +35,7 @@ function Footer() {
       </div>
       <div className="footer-bottom"></div>
       &copy; adt.com | Designed by Me
-      <div className="footText container">
-        <img src={footText1} className="footText 1" />
-        <a href="Github.com">footText 1</a>
-        <img src={footText2} className="footText 2" />
-        <a href="Github.com">FootText 2</a>
-        <img src={footText3} className="footText 3" />
-        <a href="Github.com">FootText 3</a>
-      </div>
+
       <div className="footer-section links">
         <h2>Quick Links</h2>
         <ul>

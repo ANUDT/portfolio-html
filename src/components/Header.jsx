@@ -1,4 +1,4 @@
-import styles from '../header.css';
+import styles from '../header.css?inline';
 
 function Header() {
   return (
@@ -14,7 +14,7 @@ function Header() {
             <a href="/project">PROJECTS </a>
           </li>
           <li>
-            <a href="/">SKILLS </a>
+            <a href="/skills">SKILLS </a>
           </li>
           <li>
             <a href="/">EXPERIENCE </a>
@@ -24,8 +24,6 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <span></span>
-
     </header>
     </div>
 )}
