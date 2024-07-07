@@ -13,7 +13,7 @@ export const darkTheme = {
       footerBackground: "#00012B"
     };
 
-    export const darkTheme = {
+    export const lightTheme = {
         background: "#FFFFFF",
         backgroundLight: "f0f0f0",
         Primary: "#bela01",
