@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className={styles.App}>;
       <header>
-      <h1>ANU</h1>
+      <h1>ANU DT</h1>
       <nav>
         <ul>
           <li>
