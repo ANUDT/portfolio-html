@@ -234,6 +234,19 @@ nav ul li a {
 .card p {
   line-height: 1.4;
 }
+
+a:link, a:visited {
+  background-color: #c4f1fc;
+  color: rgb(31, 24, 24);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(50, 48, 54);
+}
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
@@ -269,14 +282,15 @@ nav ul li a {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #aacee2;
   color: black;
+  border-radius: initial;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgb(101, 203, 243);
-  color: white;
+  background-color: rgb(71, 94, 104);
+  color: rgb(12, 9, 9);
   transform: rotateY(180deg);
 }
 
