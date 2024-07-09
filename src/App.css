@@ -70,6 +70,10 @@ body {
   padding: 0 20px;
 }
 
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 
 
 .header h1 {

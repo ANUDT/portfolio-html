@@ -28,11 +28,11 @@ function Skills() {
 
 
 
-      {/* <div className="project container">
+     <div className="project container">
           <a href= "Github.com"><img src={project1} className="project item"/>Project 1</a>
           <a href= "Github.com"><img src={project2} className="project item"/>Project 2</a>
           <a href= "Github.com"><img src={project3} className="project item"/>Project 3</a>
-        </div> */}
+        </div>
     </main>
   );
 }
