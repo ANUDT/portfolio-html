@@ -1,6 +1,6 @@
 //single page application creation  for react and router client side
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import styled, { ThemeProvider } from 'styled-components';
+import styles, { ThemeProvider } from 'styled-components';
 import Header from './components/header';
 import Footer from './components/footer';
 import AboutMe from './components/aboutMe';
@@ -9,7 +9,6 @@ import Project from './components/project';
 import Resume from './components/resume';
 import Skills from './components/skills.jsx';
 import { lightTheme } from './utils/Themes.jsx';
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -22,9 +21,7 @@ function App() {
         <Router>
           <Header />
           <main>
-            <p>
-            <Button>Test Button</Button>
-            </p>
+            <p>TEXT </p>
             <Routes>
               <Route path="/" element={<AboutMe />} />
               <Route path="/contact" element={<Contact />} />
