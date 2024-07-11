@@ -1,8 +1,4 @@
 import "../footer.css";
-import footText1 from "../../image/hacking.jpeg"
-import footText2 from "../../image/Designer.jpeg"
-import footText3 from "../../image/Designer.jpeg"
-
 function Footer() {
   return (
       <footer className="footer">
