@@ -17,24 +17,18 @@ import './App.css';
 function App() {
   return (
     <ThemeProvider theme={lightTheme}>
-      <Body>
         <Router>
           <Header />
-          <main>
-            <p>TEXT </p>
-            <Routes>
+              <Routes>
               <Route path="/" element={<AboutMe />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/project" element={<Project />} />
               <Route path="/resume" element={<Resume />} />
               <Route path="/skills" element={<Skills />} />
-
             </Routes>
-          </main>
-          <Footer />
+           <Footer />
         </Router>
-      </Body>
-    </ThemeProvider>  
+      </ThemeProvider>  
   );
 }
 
